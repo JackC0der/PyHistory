@@ -1,9 +1,9 @@
 import random
 import time
 
-from utilitarios import *
-from monstros import *
-from classes import *
+from classes.utilitarios import *
+from classes.monstros import *
+from classes.classes import *
 
 todosItens = {}
 armasCriadas = {}

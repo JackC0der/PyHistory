@@ -1,8 +1,12 @@
-src\
-    classes\
+PyHistory/
+    __init__.py
+    main.py
+    classes/
+        __init__.py
         clsses.py
         devClasses.py
         monstros.py
-    out-tools\
+    out-tools/
+        __init__.py
         SkillsCreator.py
         utilitarios.py

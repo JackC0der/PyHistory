@@ -1,7 +1,7 @@
 import random
 import time
 
-from monstros import *
+from classes.monstros import *
 
 class mago:
     def __init__(self, poderDeAtaque = 0, mana = 100):

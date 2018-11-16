@@ -1,6 +1,6 @@
-import classes
-import monstros
-import devClasses
+import classes.classes as classes
+import classes.monstros as monstros
+import classes.devClasses as devClasses
 
 dev = devClasses.desenvolvedor()
 jogador = devClasses.player("mago", "Jack", 1, 14)
@@ -32,13 +32,13 @@ jogador.statusAtual()
 
 inimigoVivo = True
 
-'''
+
 while inimigoVivo == True:
     acao = input(">>> ")
     if acao == "atacar":
         jogador.atacar(jogador.espadaDaDiscordia, monstro)
         monstro.atacar(monstro.ataqueBasico, jogador)
-'''
+
 #Jeitos de dar dano
 ####Primeiro####
 #Armazena o dano em uma varialvel
