@@ -1,0 +1,18 @@
+﻿Classes e Objetos
+
+Na criação do jogo, temos que saber como se faz o uso das classes exitentes.
+Basicamente temos 3 classes. Estas são: desenvolvedor, jogador e monstro. Sendo que cada uma delas têm a sua propria função.
+
+Desenvolvedor
+
+Esta classe é capaz de "criar o mundo", com ela será possível a criação de itens, lojas e habilidades.
+
+Para criar um objeto do tipo desenvolvedor, tempo primeiro que importar a biblioteca "devClasses" e então criar o objeto.
+Ex:
+
+#importamos a biblioteca, que esta dentro do diretorio classes e com isso, atribuimos a classe o apelido de "devClasses"
+import classes.devClasses as devClasses
+
+#criamos um objeto do tipo desenvolvedor com o nome de "dev"
+dev = devClasses.desenvolvedor()
+
